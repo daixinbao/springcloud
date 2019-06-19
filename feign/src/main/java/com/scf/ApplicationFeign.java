@@ -1,12 +1,15 @@
-package com.scc1;
+package com.scf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringCloudApplication
-public class Application {
+@EnableFeignClients
+public class ApplicationFeign {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationFeign.class, args);
     }
+
 }
