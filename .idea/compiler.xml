@@ -7,13 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaclient" />
+        <module name="eurekaclient1" />
         <module name="eurekaserver" />
+        <module name="feign" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaclient" target="1.8" />
+      <module name="eurekaclient1" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="feign" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
