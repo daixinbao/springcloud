@@ -8,5 +8,5 @@ rem "D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.15\sbin\rabbitmq-plugi
 SET ERLANG_HOME=D:\Program Files\erl9.3
 SET RABBITMQ_SERVER=D:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.15
 set PATH=%PATH%;%ERLANG_HOME%\bin;%RABBITMQ_SERVER%\sbin;
-"%RABBITMQ_SERVER%/sbin/rabbitmq-plugins.bat" enable rabbitmq_management
+call "%RABBITMQ_SERVER%/sbin/rabbitmq-plugins.bat" enable rabbitmq_management
 net start RabbitMQ
