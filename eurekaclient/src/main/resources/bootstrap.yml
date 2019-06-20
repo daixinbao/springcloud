@@ -1,0 +1,21 @@
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+#server:
+#  port: 8762
+#spring:
+#  application:
+#    name: eurekaclient
+spring:
+  cloud:
+    config:
+      name: eurekaclient
+      label: master
+      discovery:
+        enabled: true
+        serviceId: config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
