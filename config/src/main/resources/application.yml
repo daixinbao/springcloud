@@ -1,0 +1,20 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: config
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/daixinbao/springcloud.git #配置git仓库地址
+          searchPaths: scST/config #配置仓库路径
+          username: 1065808217@qq.com #访问git仓库的用户名
+          password: 950824dxb521 #访问git仓库的用户密码
+      label: master #配置仓库的分支
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
