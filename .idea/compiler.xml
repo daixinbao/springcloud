@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config" />
+        <module name="distributedlock" />
         <module name="eurekaclient" />
         <module name="eurekaclient1" />
         <module name="eurekaserver" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config" target="1.8" />
+      <module name="distributedlock" target="1.8" />
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaclient1" target="1.8" />
       <module name="eurekaserver" target="1.8" />

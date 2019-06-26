@@ -1,0 +1,1 @@
+D:\dataBase\Redis-x64-3.0.500\redis-server.exe redis.windows.conf
