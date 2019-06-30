@@ -1,5 +1,6 @@
 package com.scdl.service;
 
+import com.scdl.entity.User;
 import com.scdl.mapper.test1.UserMapper1;
 import com.scdl.mapper.test2.UserMapper2;
 import org.springframework.beans.factory.annotation.Autowired;

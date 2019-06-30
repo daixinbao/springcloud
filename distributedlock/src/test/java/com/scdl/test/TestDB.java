@@ -1,6 +1,7 @@
 package com.scdl.test;
 
 import com.scdl.ApplicationDistributeLock;
+import com.scdl.entity.User;
 import com.scdl.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
