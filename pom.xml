@@ -17,7 +17,7 @@
         <module>distributedlock</module>
     </modules>
     <packaging>pom</packaging>
-
+<!-- tijaoceshi  -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
